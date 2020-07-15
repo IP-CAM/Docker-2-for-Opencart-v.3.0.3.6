@@ -1,0 +1,50 @@
+version: "3"
+services:
+  #PHP Service
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: OPENCART_APP
+    restart: always
+    tty: true
+    ports:
+      - "4450:80"
+    volumes:
+      - .:/app
+      # - ../run.sh:/run.sh
+    networks:
+      - dockernet
+      #Docker Networks
+
+  database:
+    image: mysql:5.7
+    restart: always
+    container_name: OPENCART_DB
+    environment:
+      MYSQL_DATABASE: opencart
+      MYSQL_ROOT_PASSWORD: Opencart__
+    volumes:
+      - mysql:/var/lib/mysql
+    networks:
+      - dockernet
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    container_name: WEB_SERVICE_PRISMA_PHPMYADMIN
+    restart: always
+    links:
+      - database:db
+    ports:
+      - 8181:80
+    environment:
+      MYSQL_ROOT_PASSWORD: Opencart__
+    networks:
+      - dockernet
+
+networks:
+  dockernet:
+    driver: bridge
+
+volumes:
+  mysql:
