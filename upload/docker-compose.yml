@@ -9,7 +9,7 @@ services:
     restart: always
     tty: true
     ports:
-      - "4450:80"
+      - "9000:80"
     volumes:
       - .:/app
       # - ../run.sh:/run.sh
@@ -36,7 +36,7 @@ services:
     links:
       - database:db
     ports:
-      - 8181:80
+      - 9950:80
     environment:
       MYSQL_ROOT_PASSWORD: Opencart__
     networks:
