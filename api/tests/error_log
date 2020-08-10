@@ -1,0 +1,3 @@
+[18-Jul-2017 03:21:00 America/New_York] PHP Fatal error:  Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/pcravqyn/public_html/aniaAPI/tests/TestCase.php on line 7
+[18-Jul-2017 10:16:27 America/New_York] PHP Fatal error:  Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/pcravqyn/public_html/aniaAPI/tests/TestCase.php on line 7
+[18-Jul-2017 16:20:46 America/New_York] PHP Fatal error:  Class 'Illuminate\Foundation\Testing\TestCase' not found in /home/pcravqyn/public_html/aniaAPI/tests/TestCase.php on line 7

@@ -1,0 +1,4 @@
+[07-Aug-2017 07:54:46 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Foundation\Application' not found in /home/pcravqyn/public_html/opencart/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/pcravqyn/public_html/opencart/bootstrap/app.php on line 14

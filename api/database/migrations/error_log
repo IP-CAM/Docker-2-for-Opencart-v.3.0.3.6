@@ -1,0 +1,2 @@
+[07-Sep-2017 16:39:18 America/New_York] PHP Fatal error:  Class 'Illuminate\Database\Migrations\Migration' not found in /home/pcravqyn/public_html/opencart/database/migrations/2014_10_12_000000_create_users_table.php on line 7
+[07-Sep-2017 16:39:18 America/New_York] PHP Fatal error:  Class 'Illuminate\Database\Migrations\Migration' not found in /home/pcravqyn/public_html/opencart/database/migrations/2014_10_12_000000_create_users_table.php on line 7

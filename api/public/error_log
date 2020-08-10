@@ -1,0 +1,13 @@
+[10-Sep-2018 15:59:24 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/ultrvrsn/public_html/ultra/app/Http/Helpers/Helper.php on line 2
+[10-Sep-2018 15:59:38 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/ultrvrsn/public_html/ultra/app/Http/Helpers/Helper.php on line 2
+[10-Sep-2018 15:59:41 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/ultrvrsn/public_html/ultra/app/Http/Helpers/Helper.php on line 2
+[25-Oct-2018 13:17:24 UTC] PHP Fatal error:  Cannot use App\Address as Address because the name is already in use in /home/ultrvrsn/public_html/ultra/app/Http/Controllers/OrderController.php on line 15
+[28-Nov-2018 14:41:17 UTC] PHP Fatal error:  Class 'App\Http\Controllers\JWTAuth' not found in /home/ultrvrsn/public_html/ultra/app/Http/Controllers/CartController.php on line 18
+[24-Mar-2019 09:52:07 UTC] PHP Parse error:  syntax error, unexpected '$discount' (T_VARIABLE) in /home/ultrvrsn/public_html/ultra/app/Http/Controllers/CartController.php on line 117
+[24-Mar-2019 09:52:11 UTC] PHP Parse error:  syntax error, unexpected '$discount' (T_VARIABLE) in /home/ultrvrsn/public_html/ultra/app/Http/Controllers/CartController.php on line 117
+[24-Mar-2019 09:52:16 UTC] PHP Parse error:  syntax error, unexpected '$discount' (T_VARIABLE) in /home/ultrvrsn/public_html/ultra/app/Http/Controllers/CartController.php on line 117
+[24-Mar-2019 09:52:24 UTC] PHP Parse error:  syntax error, unexpected '$discount' (T_VARIABLE) in /home/ultrvrsn/public_html/ultra/app/Http/Controllers/CartController.php on line 117
+[24-Mar-2019 09:52:32 UTC] PHP Parse error:  syntax error, unexpected '$discount' (T_VARIABLE) in /home/ultrvrsn/public_html/ultra/app/Http/Controllers/CartController.php on line 117
+[24-Mar-2019 09:53:10 UTC] PHP Parse error:  syntax error, unexpected '$discount' (T_VARIABLE) in /home/ultrvrsn/public_html/ultra/app/Http/Controllers/CartController.php on line 117
+[24-Mar-2019 09:53:13 UTC] PHP Parse error:  syntax error, unexpected '$discount' (T_VARIABLE) in /home/ultrvrsn/public_html/ultra/app/Http/Controllers/CartController.php on line 117
+[24-Mar-2019 09:53:18 UTC] PHP Parse error:  syntax error, unexpected '$discount' (T_VARIABLE) in /home/ultrvrsn/public_html/ultra/app/Http/Controllers/CartController.php on line 117
