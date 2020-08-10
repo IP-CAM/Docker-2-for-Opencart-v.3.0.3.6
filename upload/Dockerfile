@@ -1,6 +1,8 @@
-FROM webdevops/php-nginx
+FROM webdevops/php-nginx:7.3
 
 WORKDIR /app
-RUN apt-get install -y mysql-server
+
+RUN php -v
+
 ADD . .
 EXPOSE 80
